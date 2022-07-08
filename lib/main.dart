@@ -151,7 +151,7 @@ The 48-megapixel primary camera was slightly disappointing overall, particularly
                   list.length,
                   (index) => PageItem(
                     itemClicked: () {
-                      Navigator.push(context,
+                        Navigator.push(context,
                           MaterialPageRoute(builder: (BuildContext context) {
                             return DetailsInfo(myPageInfo: list[index]);
                           }));
